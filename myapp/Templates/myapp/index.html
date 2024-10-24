@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    <title>Home</title>
+{% endblock head %}
+
+{% block body %}
+    <div class="home-container">
+        <h1>Message : {{ message }}</h1>
+        <p>Địa chỉ IP của bạn là: {{ user_ip }}</p>
+        <button>Thực hiện hành động</button>
+    </div>
+{% endblock body %}

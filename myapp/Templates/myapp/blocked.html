@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    <title>Bị Chặn</title>
+{% endblock head %}
+
+{% block body %}
+    <div class="blocked-container">
+        <h1 class="blocked-title">{{ message }}</h1>
+        <p class="blocked-message">Bạn đã bị chặn do hành vi đáng ngờ.</p>
+    </div>
+{% endblock body %}
