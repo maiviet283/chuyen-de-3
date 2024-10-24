@@ -6,4 +6,4 @@ from django.http import JsonResponse
 
 def get_resource(request):
     id_value = request.GET.get('id')
-    return JsonResponse({"message": f"Dang Truy Cap Vao id={id_value}"})
+    return JsonResponse({"message": f"Accessing resource with = {id_value}"})
